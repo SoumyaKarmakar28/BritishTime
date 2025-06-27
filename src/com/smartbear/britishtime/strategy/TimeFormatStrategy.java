@@ -1,4 +1,4 @@
-package com.smartbear.britishtime.service;
+package com.smartbear.britishtime.strategy;
 
 import java.time.LocalTime;
 

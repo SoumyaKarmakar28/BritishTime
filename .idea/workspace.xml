@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 02: Service Layer" />
+    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 03: Exception Handler">
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/TimeFormatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/TimeFormatStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/TimeFormatStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/TimeFormatStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/ExactHourStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/ExactHourStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/HalfPastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/HalfPastStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/MidnightStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/MidnightStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/NoonStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/NoonStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/PastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/PastStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/QuarterPastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/QuarterPastStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/QuarterToStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/QuarterToStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/ToStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/ToStrategy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750997457416</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 03: Exception Handler">
+      <created>1750997683530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750997683530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 01: Init" />
     <MESSAGE value="Commit 02: Service Layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 02: Service Layer" />
+    <MESSAGE value="Commit 03: Exception Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 03: Exception Handler" />
   </component>
 </project>

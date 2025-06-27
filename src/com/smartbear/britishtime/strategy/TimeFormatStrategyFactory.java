@@ -1,6 +1,6 @@
-package com.smartbear.britishtime.service;
+package com.smartbear.britishtime.strategy;
 
-import com.smartbear.britishtime.service.implementation.*;
+import com.smartbear.britishtime.strategy.implementation.*;
 
 import java.time.LocalTime;
 import java.util.List;
