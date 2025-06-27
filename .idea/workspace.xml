@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 03: Exception Handler">
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/TimeFormatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/TimeFormatStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/TimeFormatStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/TimeFormatStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/ExactHourStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/ExactHourStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/HalfPastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/HalfPastStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/MidnightStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/MidnightStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/NoonStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/NoonStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/PastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/PastStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/QuarterPastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/QuarterPastStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/QuarterToStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/QuarterToStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/implementation/ToStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/ToStrategy.java" afterDir="false" />
+    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 04: Business Logic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/BritishTimeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/BritishTimeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/TimeFormatStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/factory/TimeFormatStrategyFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,26 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smartbear.britishtime.Main" />
+      <module name="BritishTime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smartbear.britishtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750997683530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 04: Business Logic">
+      <created>1750998145248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750998145248</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +114,23 @@
     <MESSAGE value="Commit 01: Init" />
     <MESSAGE value="Commit 02: Service Layer" />
     <MESSAGE value="Commit 03: Exception Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 03: Exception Handler" />
+    <MESSAGE value="Commit 04: Business Logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 04: Business Logic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/ExactHourStrategy.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/smartbear/britishtime/strategy/implementation/QuarterPastStrategy.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

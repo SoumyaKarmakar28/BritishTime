@@ -1,5 +1,6 @@
-package com.smartbear.britishtime.strategy;
+package com.smartbear.britishtime.factory;
 
+import com.smartbear.britishtime.strategy.TimeFormatStrategy;
 import com.smartbear.britishtime.strategy.implementation.*;
 
 import java.time.LocalTime;

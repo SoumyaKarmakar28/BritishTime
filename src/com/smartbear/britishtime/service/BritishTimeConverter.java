@@ -2,7 +2,7 @@ package com.smartbear.britishtime.service;
 
 import com.smartbear.britishtime.exception.InvalidTimeFormatException;
 import com.smartbear.britishtime.strategy.TimeFormatStrategy;
-import com.smartbear.britishtime.strategy.TimeFormatStrategyFactory;
+import com.smartbear.britishtime.factory.TimeFormatStrategyFactory;
 
 import java.time.LocalTime;
 
