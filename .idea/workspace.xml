@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 01: Init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/Implementation/ExactHourStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/Implementation/MidnightStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/Implementation/NoonStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/Implementation/QuarterPastStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/TimeFormatStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/service/TimeFormatStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtime/util/BritishTimeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 02: Service Layer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +50,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750995296977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 02: Service Layer">
+      <created>1750997457416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750997457416</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +73,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 01: Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 01: Init" />
+    <MESSAGE value="Commit 02: Service Layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 02: Service Layer" />
   </component>
 </project>
