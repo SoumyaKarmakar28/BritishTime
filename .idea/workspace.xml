@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BritishTime:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 05: Main class">
-      <change afterPath="$PROJECT_DIR$/src/com/smartbear/britishtimeTest/TestRunner.java" afterDir="false" />
+    <list default="true" id="c312786d-db60-4158-9473-804093025c30" name="Changes" comment="Commit 06: Test Cases">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BritishTime_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +40,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager" selected="Application.TestRunner">
@@ -114,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1751000100962</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 06: Test Cases">
+      <created>1751000404040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751000404040</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +151,8 @@
     <MESSAGE value="Commit 03: Exception Handler" />
     <MESSAGE value="Commit 04: Business Logic" />
     <MESSAGE value="Commit 05: Main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 05: Main class" />
+    <MESSAGE value="Commit 06: Test Cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 06: Test Cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
